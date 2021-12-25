@@ -1,3 +1,8 @@
+import numpy as np
 n=int(input())
 arr=np.array([input().split() for i in range(n)], float)
 print(np.linalg.det(arr).round(2))
+
+#another way to print and round the output
+#o=np.linalg.det(A)
+print(o.round(2))
